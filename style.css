@@ -97,6 +97,22 @@ h1 {
   line-height: 1.1;
   margin-bottom: 24px;
 }
+
+.hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.hero-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--terracotta);
+  flex-shrink: 0;
+}
+
 .hero-desc {
   font-size: 18px;
   color: var(--muted);
