@@ -200,6 +200,7 @@ section p {
   font-family: 'Space Mono', monospace;
   font-size: 20px;
   transition: transform 0.3s;
+  text-decoration: none;
 }
 .project-card:hover .arrow { transform: translate(4px, -4px); }
 .project-card p {
