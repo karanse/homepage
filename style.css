@@ -238,6 +238,14 @@ section p {
 }
 .social-links a:hover { color: var(--mediterranean); }
 
+a {
+  text-decoration: none;
+  color: var(--terracotta);
+}
+a:hover {
+  color: var(--mediterranean);
+}
+
 /* === Fade-in Animation === */
 .fade-in {
   opacity: 0;
